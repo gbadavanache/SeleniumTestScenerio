@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="tenHundred">
+  <test thread-count="5" name="TestTenofHundred">
+  
+  <groups>
+  	<run>
+  		<include name = "myTest"/>
+  	</run>
+  </groups>
+  
+    <classes>
+      <class name ="Run10outof100TC.tenOutofHundred"/>
+   <class name ="Run10outof100TC.TenoutofHundredExample2"/>
+    </classes>
+  </test> <!-- TestTenofHundred -->
+</suite> <!-- tenHundred -->
